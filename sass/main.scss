@@ -1,0 +1,15 @@
+@use "maingrid";
+@use "header/header";
+@use "nav/nav";
+@use "caracter/caracter";
+@use "correct/correct";
+@use "btn/button";
+
+*,
+p,
+h1,
+h2 {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}

@@ -1,0 +1,84 @@
+.mainGrid {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.lightTheme {
+  background-color: #dfe6e9;
+}
+
+.darkTheme {
+  background-color: #2d3436;
+}
+
+h1 {
+  font-size: 1rem;
+}
+
+.nav__menu {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+}
+.nav__menu .checkedBox {
+  display: none;
+}
+.nav__menu .checkLabel {
+  width: 10%;
+}
+.nav__menu .checkLabel .checkLabel--img {
+  width: 100%;
+}
+
+.caracter {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: nowrap;
+}
+.caracter .caracter__zi {
+  font-size: 5rem;
+  -webkit-text-stroke: 1px #dfe6e9;
+}
+
+.correct__flex {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+.correct__flex .correct__flex--buttons {
+  margin: 0.1%;
+  height: 5vh;
+  width: 49%;
+  border-radius: 20px;
+}
+.correct__flex .correctOption {
+  background-color: #00b894;
+}
+
+.button--go {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+.button--go .button__go {
+  width: 40%;
+  height: 7vh;
+  border-radius: 20px;
+}
+
+*,
+p,
+h1,
+h2 {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+/*# sourceMappingURL=main.css.map */

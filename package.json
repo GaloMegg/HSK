@@ -1,0 +1,22 @@
+{
+  "name": "flashcard-fullproyect",
+  "version": "1.0.0",
+  "description": "Flashcard to practice mandarin, depending on the level of the exam",
+  "main": "app.js",
+  "url": "https://github.com/GaloMegg/HSK", 
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass": "sass <../sass/main.scss> [../css/styles.css]"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@material/switch": "^13.0.0",
+    "ajax": "^0.0.4",
+    "jquery": "^3.6.0",
+    "nodemon": "^2.0.15"
+  },
+  "devDependencies": {
+    "sass": "^1.43.4"
+  }
+}

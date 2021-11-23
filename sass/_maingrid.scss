@@ -1,0 +1,15 @@
+@use "variables" as v;
+
+.mainGrid {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+.lightTheme {
+  background-color: v.$lightGray;
+}
+.darkTheme {
+  background-color: v.$darkBlack;
+}

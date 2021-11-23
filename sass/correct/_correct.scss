@@ -1,0 +1,20 @@
+@use "../variables" as v;
+
+.correct__flex {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  .correct__flex--buttons {
+    margin: 0.1%;
+    height: 5vh;
+    width: 49%;
+    border-radius: 20px;
+  }
+  .correctOption {
+    background-color: v.$greenMint;
+  }
+//   .wrongOption {
+//     background-color: v.$greenMint;
+//   }
+}

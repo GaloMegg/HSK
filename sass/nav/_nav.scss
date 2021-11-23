@@ -1,0 +1,14 @@
+.nav__menu {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  .checkedBox {
+    display: none;
+  }
+  .checkLabel {
+    width: 10%;
+    .checkLabel--img{
+        width: 100%;
+    }
+  }
+}

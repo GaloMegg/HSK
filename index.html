@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FlashCards</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+    <div class="mainGrid lightTheme">
+        <nav class="nav__menu">
+            <label for="checked" class="checkLabel">
+                <img src="img/light.png" alt="" class="checkLabel--img">
+            </label>
+            <input type="checkbox" name="checked" id="checked" class="checkedBox">
+            <select name="" id="" class="select__level">
+                <option value="1" data-id="1">HSK-1</option>
+                <option value="2" data-id="2">HSK-2</option>
+                <option value="3" data-id="3">HSK-3</option>
+                <option value="4" data-id="4">HSK-4</option>
+                <option value="5" data-id="5">HSK-5</option>
+                <option value="6" data-id="6">HSK-6</option>
+            </select>
+
+        </nav>
+        <article class="caracter">
+            <h1 class="caracter__zi">
+            </h1>
+        </article>
+        <div class="correct__flex">
+            <button class="correct__flex--a correct__flex--buttons">a</button>
+            <button class="correct__flex--b correct__flex--buttons">b</button>
+            <button class="correct__flex--c correct__flex--buttons">c</button>
+            <button class="correct__flex--d correct__flex--buttons">d</button>
+        </div>
+        <div class="button--go">
+            <button class=" button__go" value="">GO!</button>
+        </div>
+        <footer>
+        </footer>
+    </div>
+
+    <head>
+
+        <script src="node_modules/jquery/dist/jquery.min.js"></script>
+        <script src="js/app.js"></script>
+</body>
+
+</html>

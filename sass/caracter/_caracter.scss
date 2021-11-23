@@ -1,0 +1,12 @@
+@use "../variables" as v;
+.caracter {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: nowrap;
+  .caracter__zi {
+    font-size: 5rem;
+    -webkit-text-stroke: 1px v.$lightGray;
+  }
+}
