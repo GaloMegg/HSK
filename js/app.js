@@ -15,42 +15,42 @@ $.ajax({
     HSK_1 = data;
   },
 }),
-$.ajax({
+  $.ajax({
     async: false,
     url: `hsklevels/hsk-level-2.json`,
     success: function (data) {
       HSK_2 = data;
     },
   }),
-$.ajax({
+  $.ajax({
     async: false,
     url: `hsklevels/hsk-level-3.json`,
     success: function (data) {
       HSK_3 = data;
     },
   }),
-$.ajax({
+  $.ajax({
     async: false,
     url: `hsklevels/hsk-level-4.json`,
     success: function (data) {
       HSK_4 = data;
     },
   }),
-$.ajax({
+  $.ajax({
     async: false,
     url: `hsklevels/hsk-level-5.json`,
     success: function (data) {
       HSK_5 = data;
     },
   }),
-$.ajax({
+  $.ajax({
     async: false,
     url: `hsklevels/hsk-level-6.json`,
     success: function (data) {
       HSK_6 = data;
     },
   });
-  
+
 RenderCharacter();
 $(".select__level").on("change", SetLevel);
 $(".button__go").on("click", RenderNewCharacter);
@@ -73,9 +73,11 @@ function CorrectOne(e) {
     e.target.classList.add("correctOption");
     setTimeout(function () {
       e.target.classList.remove("correctOption");
-    }, 100);
+    }, 200);
     $(".correct__flex--buttons").prop("disabled", false);
-    RenderCharacter();
+    setTimeout(function () {
+      RenderCharacter();
+    }, 300);
   } else {
     for (i = 0; i < 3; i++) {
       $(this).prop("disabled", true);
