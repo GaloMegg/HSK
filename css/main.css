@@ -34,14 +34,14 @@ h1 {
 }
 .nav__menu .button__go {
   width: 20%;
-  height: 7vh;
+  height: 6vh;
   border-radius: 20px;
 }
 .nav__menu .select__level {
   background-color: #604efa;
   border-radius: 20px;
   border: none;
-  height: 7vh;
+  height: 6vh;
   width: 20%;
 }
 .nav__menu .select__level:focus {
