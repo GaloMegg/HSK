@@ -6,10 +6,12 @@
   justify-content: space-evenly;
   flex-wrap: wrap;
   .correct__flex--buttons {
-    margin: 0.1%;
-    height: 5vh;
+    margin: 0.5%;
+    height: 7.5vh;
     width: 49%;
     border-radius: 20px;
+    border: none;
+    background-color: v.$secondaryBlue;
   }
   .correctOption {
     background-color: v.$greenMint;

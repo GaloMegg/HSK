@@ -11,7 +11,7 @@
 }
 
 .darkTheme {
-  background-color: #2d3436;
+  background-color: #000000;
 }
 
 h1 {
@@ -32,6 +32,24 @@ h1 {
 .nav__menu .checkLabel .checkLabel--img {
   width: 100%;
 }
+.nav__menu .button__go {
+  width: 20%;
+  height: 7vh;
+  border-radius: 20px;
+}
+.nav__menu .select__level {
+  background-color: #604efa;
+  border-radius: 20px;
+  border: none;
+  height: 7vh;
+  width: 20%;
+}
+.nav__menu .select__level:focus {
+  transform: scale(1.01);
+}
+.nav__menu .select__level .select__level--op {
+  background-color: #7e71f3;
+}
 
 .caracter {
   width: 100%;
@@ -41,8 +59,10 @@ h1 {
   flex-wrap: nowrap;
 }
 .caracter .caracter__zi {
+  color: #dfe6e9;
   font-size: 5rem;
-  -webkit-text-stroke: 1px #dfe6e9;
+  font-weight: lighter;
+  -webkit-text-stroke: 0.5px #604efa;
 }
 
 .correct__flex {
@@ -52,24 +72,15 @@ h1 {
   flex-wrap: wrap;
 }
 .correct__flex .correct__flex--buttons {
-  margin: 0.1%;
-  height: 5vh;
+  margin: 0.5%;
+  height: 7.5vh;
   width: 49%;
   border-radius: 20px;
+  border: none;
+  background-color: #7e71f3;
 }
 .correct__flex .correctOption {
   background-color: #00b894;
-}
-
-.button--go {
-  display: flex;
-  justify-content: center;
-  width: 100%;
-}
-.button--go .button__go {
-  width: 40%;
-  height: 7vh;
-  border-radius: 20px;
 }
 
 *,

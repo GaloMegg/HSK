@@ -6,7 +6,9 @@
   align-items: center;
   flex-wrap: nowrap;
   .caracter__zi {
+    color: v.$lightGray;
     font-size: 5rem;
-    -webkit-text-stroke: 1px v.$lightGray;
+    font-weight: lighter;
+    -webkit-text-stroke: 0.5px v.$principalBlue;
   }
 }

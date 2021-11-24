@@ -1,3 +1,5 @@
+@use "../variables" as v;
+
 .nav__menu {
   display: flex;
   width: 100%;
@@ -7,8 +9,26 @@
   }
   .checkLabel {
     width: 10%;
-    .checkLabel--img{
-        width: 100%;
+    .checkLabel--img {
+      width: 100%;
+    }
+  }
+  .button__go {
+    width: 20%;
+    height: 7vh;
+    border-radius: 20px;
+  }
+  .select__level {
+    background-color: v.$principalBlue;
+    border-radius: 20px;
+    border: none;
+    height: 7vh;
+    width: 20%;
+    &:focus {
+      transform: scale(1.01);
+    }
+    .select__level--op {
+      background-color: v.$secondaryBlue;
     }
   }
 }
