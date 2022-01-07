@@ -4,31 +4,47 @@
   display: flex;
   width: 100%;
   justify-content: space-around;
-  .checkedBox {
-    display: none;
-  }
-  .checkLabel {
-    width: 10%;
-    .checkLabel--img {
-      width: 100%;
-    }
-  }
+  // .checkedBox {
+  //   display: none;
+  // }
+  // .checkLabel {
+  //   width: 10%;
+  //   .checkLabel--img {
+  //     width: 100%;
+  //   }
+  // }
   .button__go {
     width: 20%;
     height: 6vh;
     border-radius: 20px;
   }
   .select__level {
-    background-color: v.$principalBlue;
+    background-color: v.$secondaryBlue;
     border-radius: 20px;
     border: none;
     height: 6vh;
     width: 20%;
+    text-align: center;
     &:focus {
       transform: scale(1.01);
     }
     .select__level--op {
+      text-align: center;
       background-color: v.$secondaryBlue;
+    }
+  }
+}
+
+@media screen and (min-width: 840px) {
+  .nav__menu {
+    .select__level {
+      font-size: 1.6rem;
+      .select__level--op {
+        font-size: 1rem;
+      }
+    }
+    .button__go {
+      font-size: 1.6rem;
     }
   }
 }

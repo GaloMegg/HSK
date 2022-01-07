@@ -14,6 +14,18 @@
   background-color: #000000;
 }
 
+.responsiveFlex {
+  width: 100%;
+}
+
+@media screen and (min-width: 540px) {
+  .responsiveFlex {
+    display: flex;
+    width: 100%;
+    height: 50vh;
+    align-items: center;
+  }
+}
 h1 {
   font-size: 1rem;
 }
@@ -23,34 +35,38 @@ h1 {
   width: 100%;
   justify-content: space-around;
 }
-.nav__menu .checkedBox {
-  display: none;
-}
-.nav__menu .checkLabel {
-  width: 10%;
-}
-.nav__menu .checkLabel .checkLabel--img {
-  width: 100%;
-}
 .nav__menu .button__go {
   width: 20%;
   height: 6vh;
   border-radius: 20px;
 }
 .nav__menu .select__level {
-  background-color: #604efa;
+  background-color: #7e71f3;
   border-radius: 20px;
   border: none;
   height: 6vh;
   width: 20%;
+  text-align: center;
 }
 .nav__menu .select__level:focus {
   transform: scale(1.01);
 }
 .nav__menu .select__level .select__level--op {
+  text-align: center;
   background-color: #7e71f3;
 }
 
+@media screen and (min-width: 840px) {
+  .nav__menu .select__level {
+    font-size: 1.6rem;
+  }
+  .nav__menu .select__level .select__level--op {
+    font-size: 1rem;
+  }
+  .nav__menu .button__go {
+    font-size: 1.6rem;
+  }
+}
 .caracter {
   width: 100%;
   display: flex;
@@ -62,9 +78,14 @@ h1 {
   color: #dfe6e9;
   font-size: 5rem;
   font-weight: lighter;
-  -webkit-text-stroke: 0.5px #604efa;
+  -webkit-text-stroke: 0.5px #dfe6e9;
 }
 
+@media screen and (min-width: 659px) {
+  .caracter .caracter__zi {
+    font-size: 8rem;
+  }
+}
 .correct__flex {
   width: 100%;
   display: flex;
@@ -83,6 +104,11 @@ h1 {
   background-color: #00b894;
 }
 
+@media screen and (min-width: 840px) {
+  .correct__flex .correct__flex--buttons {
+    font-size: 1.3rem;
+  }
+}
 *,
 p,
 h1,
