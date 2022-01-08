@@ -16,11 +16,13 @@
   .correctOption {
     background-color: v.$greenMint;
   }
-//   .wrongOption {
-//     background-color: v.$greenMint;
-//   }
 }
 
+@media screen and (min-width: 540px) {
+  .correct__flex {
+    margin: 4%;
+  }
+}
 @media screen and (min-width: 840px) {
   .correct__flex {
     .correct__flex--buttons {
